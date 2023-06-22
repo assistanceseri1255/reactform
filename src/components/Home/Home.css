@@ -1,0 +1,47 @@
+.show-horizontal
+{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+input[type=text],input[type=number],input[type=date]
+ {
+    width:60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:2px solid red;
+  }
+  #demo
+  {
+    width: 25%;
+  }
+.myform
+{
+        margin-left: 20px;
+        max-width: 1000px;
+        /* margin: 0 auto; */
+        padding: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+}
+div{
+    
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-left:100px;
+}
+
+  button 
+  {
+    margin-left: 500px;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+        background-color: #f0f0f0;
+        border: 1px solid red;
+        border-radius: 5px;
+        color: blue;
+  }
